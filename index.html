@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.mb.YTPlayer.js"></script>
+    <!--<script type="text/javascript" src="https://drive.google.com/open?id=0B5whWd_5dLioakZWZ3ltdHNpem8"></script>-->
+     <!--<script type="text/javascript" src="https://sites.google.com/site/skyhunterlab/home/jquery.mb.YTPlayer.js"></script>-->
+</head>
+
+<body>
+
+    <section class="big-background">
+
+        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=tCUnP5Aij_w',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+
+        <div class="pattern"></div>
+        <div class="big-background-container">
+            <h1 class="big-background-title">НОВЫЙ</h1>
+            <div class="divider"></div>
+            <h1 id="colorize">UHRYAB.RU</h1>
+            <a href="#" class="big-background-btn">Блог</a>
+        </div>
+
+    </section>
+
+    <div class="wrapper">
+
+        <section class="about-section">
+            <div class="about-section-container">
+                <h2 class="about-section-title">Охуенный текст</h2>
+                <p>чуть менее охуенный текст</p>
+                <a href="#" target="_blank" class="about-section-btn">Охуенная кнопка</a>
+            </div>
+        </section>
+
+        <section class="small-background-section">
+
+            <div class="pattern"></div>
+
+            <div class="small-background-container">
+
+            </div>
+        </section>
+
+    </div>
+     <script>
+         $(function() {
+             $(".player").mb_YTPlayer();
+         });
+     </script>
+</body>
+
+</html>
